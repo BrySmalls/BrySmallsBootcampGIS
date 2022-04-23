@@ -1,0 +1,79 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "2.9.0",
+  "build" : 32739,
+  "layers" : [
+    "CIMPATH=7148e2ffd3804f16b3b08bd33b6bb3b2.xml"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMTiledServiceLayer",
+      "name" : "Shenandoah Elevations",
+      "uRI" : "CIMPATH=7148e2ffd3804f16b3b08bd33b6bb3b2.xml",
+      "sourceURI" : "7730c15d2f034b3bb39e357c95e93a83",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "sourcePortalUrl" : "https://bry.maps.arcgis.com/",
+      "description" : "Shenandoah_Trailhead_Evacuations_WTL1",
+      "layerType" : "Operational",
+      "maxScale" : 36111.909642999977,
+      "minScale" : 2311162.2171544908,
+      "showLegends" : true,
+      "transparency" : 27,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "webMapLayerID" : "7f1d8c63973044859e9afb54a39efa5c",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "serviceConnection" : {
+        "type" : "CIMAGSServiceConnection",
+        "objectName" : "Shenandoah_Trailhead_Evacuations_WTL1",
+        "objectType" : "MapServer",
+        "url" : "https://tiles.arcgis.com/tiles/lxU9KbDhqQ4wqnwP/arcgis/rest/services/Shenandoah_Trailhead_Evacuations_WTL1/MapServer",
+        "serverConnection" : {
+          "type" : "CIMInternetServerConnection",
+          "anonymous" : true,
+          "hideUserProperty" : true,
+          "url" : "https://tiles.arcgis.com/tiles/lxU9KbDhqQ4wqnwP/arcgis/services"
+        }
+      },
+      "subLayers" : [
+        {
+          "type" : "CIMDynamicServiceSubLayer",
+          "name" : "DEM Central VA",
+          "showLegends" : true,
+          "subLayerID" : "7",
+          "visibility" : true,
+          "serviceLayerID" : -1,
+          "timeOffsetUnits" : "esriTimeUnitsUnknown",
+          "showPopups" : true
+        }
+      ],
+      "transparentColor" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          254,
+          254,
+          254,
+          100
+        ]
+      },
+      "backgroundColor" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          254,
+          254,
+          254,
+          100
+        ]
+      }
+    }
+  ]
+}
